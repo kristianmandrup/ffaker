@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Faker
   # thanks to http://hipsteripsum.me
   module HipsterIpsum

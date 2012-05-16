@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Faker
   # Based on Perl's Text::Lorem
   module Lorem
