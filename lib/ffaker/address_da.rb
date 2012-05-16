@@ -1,4 +1,4 @@
-# encoding: utf-8
+# encoding: ISO-8859-1
 
 module Faker
   module AddressDA
@@ -35,6 +35,7 @@ module Faker
     def street_name
       STREET.rand
     end
+    alias_method :street, :street_name
 
     def street_address
       "#{Faker::AddressDA.street_address} #{rand(100)}"
@@ -90,7 +91,7 @@ DANMARK
 
     STATE = REGION
 
-    CITY = k [
+     CITY = k [
       'Aabenraa','Aabybro','Aakirkeby','Aalborg','Aalborg SV','Aalborg SØ','Aalborg Øst','Aalestrup','Aars','Aarup',
       'Agedrup','Agerbæk','Agerskov','Albertslund','Allerød','Allinge','Allingåbro','Almind','Anholt','Ans By',
       'Ansager','Arden','Asaa','Askeby','Asnæs','Asperup','Assens','Augustenborg','Aulum','Auning',
@@ -102,7 +103,7 @@ DANMARK
       'Christiansfeld','Dalby','Dalmose','Dannemare','Daugård','Dianalund','Dragør','Dronninglund','Dronningmølle','Dybvad',
       'Dyssegård','Ebberup','Ebeltoft','Egernsund','Egtved','Egå','Ejby','Ejstrupholm','Engesvang','Errindlev',
       'Erslev','Esbjerg','Esbjerg N','Esbjerg V','Esbjerg Ø','Eskebjerg','Eskilstrup','Espergærde','Faaborg','Fanø',
-      'Farsø','Farum','Faxe','Faxe Ladeplads','Fejø','Ferritslev Fyn','Fjenneslev','Fjerritslev','Flemming','Fredensborg'
+      'Farsø','Farum','Faxe','Faxe Ladeplads','Fejø','Ferritslev Fyn','Fjenneslev','Fjerritslev','Flemming','Fredensborg',
       'Fredericia','Frederiksberg C','Frederikshavn','Frederikssund','Frederiksværk','Frørup','Frøstrup','Fuglebjerg','Fur','Føllenslev',
       'Føvling','Fårevejle','Fårup','Fårvang','Gadbjerg','Gadstrup','Galten','Gandrup','Gedser','Gedsted',
       'Gedved','Gelsted','Gentofte','Gesten','Gilleleje','Gislev','Gislinge','Gistrup','Give','Gjerlev J',
@@ -149,7 +150,8 @@ DANMARK
       'Vestervig','Viborg','Viby J','Viby Sjælland','Videbæk','Vig','Vildbjerg','Vils','Vinderup','Vipperød',
       'Virum','Vissenbjerg','Viuf','Vodskov','Vojens','Vonge','Vorbasse','Vordingborg','Vrå','Væggerløse',
       'Værløse','Ærøskøbing','Ølgod','Ølsted','Ølstykke','Ørbæk','Ørnhøj','Ørsted','Ørum Djurs','Østbirk',
-      'Øster Assels','Øster Ulslev','Østermarie','Østervrå','Åbyhøj','Ålbæk','Ålsgårde','Århus C','Århus N','Århus V', 'Årre','Årslev'
+      'Øster Assels','Øster Ulslev','Østermarie','Østervrå','Åbyhøj','Ålbæk','Ålsgårde','Århus C',
+      'Århus N','Århus V', 'Årre', 'Årslev'
     ]
   end
 end

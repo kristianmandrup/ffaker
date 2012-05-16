@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 # => author: wiseleyb
 # => email: wiseleyb@gmail.com
 # based on information from http://en.wikipedia.org/wiki/Telephone_numbers_in_Australia
@@ -40,8 +38,7 @@ module  Faker
     end
 
     def international_phone_number
-      Faker.numerify("#{country_code} #{phone_number}"
-      
+      Faker.numerify("#{country_code} #{phone_number}"      
     end
     
   end
