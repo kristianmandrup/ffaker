@@ -59,7 +59,7 @@ module Faker
       PREFIXES.rand
     end
 
-    MALE_FIRST_NAMES = k ["Ab", "Abel", "Abdikheyr","Abdillahi","Abdiqadir","Abdirahman","Abnir","Addis","Adiva","Aftab","Aimal","Ajeeshan","Ajuna","Akachi","Akon","Alasdair","Albertinus","Alix","Amiin","Amren","Anaz","Andriy","Andry","Annæus","Ansumana","Antonio","Apollo","Araz","Armaandeep","Artur","Atshey","Attila","Aurel","Avraz","Awais","Azis",
+    MALE_FIRST_NAMES = k ["Ab", "Abel", "Abdikheyr","Abdillahi","Abdiqadir","Abdirahman","Abnir","Addis","Adiva","Aftab","Aimal","Ajeeshan","Ajuna","Akachi","Akon","Alasdair","Albertinus", "Alex", "Alix","Amiin","Amren","Anaz","Andriy","Andry","Annæus","Ansumana","Antonio","Apollo","Araz","Armaandeep","Artur","Atshey","Attila","Aurel","Avraz","Awais","Azis",
     	"Babatunde","Balzer","Baqar","Barbaros","Barca","Batin","Berkin","Berndt","Bertier","Bille","Boniface","Brianeli","Brido","Brono","Burim","Butoto","Buzter",
     	"Cayden","Cevat","Chay","Cheick","Chico","Chidozie","Cilan","Clauz","Cormac","Cömert", "Christian", "Dae","Dagim","Darnel","Dennik","Dero","Deyyan","Dogukan","Dominick","Dreas","Dynnes","Eberhardt","Edon","Eick","Eiler","Einert","Eitel","Elarbi","Eldin","Elwin","Emal","Emilis","Emre","Enoch","Erem","Ersan",
     	"Falah","Falke","Fardin","Felan","Fester","Finnbjørn","Fir","Frorai","Galad","Gary","Gerald","Germann","Germind","Gharib","Gniewko","Greg","Günther","Gøtz",

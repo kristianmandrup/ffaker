@@ -25,6 +25,7 @@ module Faker
   end
 
   autoload :Address,       'ffaker/address'
+  autoload :AddressDA,     'ffaker/address_da'
   autoload :AddressAU,     'ffaker/address_au'
   autoload :AddressCA,     'ffaker/address_ca'
   autoload :AddressDE,     'ffaker/address_de'
@@ -41,12 +42,14 @@ module Faker
   autoload :Lorem,         'ffaker/lorem'
   autoload :LoremCN,       'ffaker/lorem_cn'
   autoload :Name,          'ffaker/name'
+  autoload :NameDA,        'ffaker/name_da'  
   autoload :NameCN,        'ffaker/name_cn'
   autoload :NameDE,        'ffaker/name_de'
   autoload :NameJA,        'ffaker/name_ja'
   autoload :NameRU,        'ffaker/name_ru'
   autoload :NameSN,        'ffaker/name_sn'
   autoload :PhoneNumber,   'ffaker/phone_number'
+  autoload :PhoneNumberDA, 'ffaker/phone_number_da'
   autoload :PhoneNumberAU, 'ffaker/phone_number_au'
   autoload :PhoneNumberSN, 'ffaker/phone_number_sn'
   autoload :Product,       'ffaker/product'
